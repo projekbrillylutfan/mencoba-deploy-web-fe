@@ -13,10 +13,10 @@ export default function SideBar({ isOpen }: SidebarProps) {
         isOpen ? "" : "hidden"
       }`}
     >
-      {location.pathname == "/dashboard" ? (
+      {location.pathname == "/" ? (
         <>
           <Link
-            to={"/dashboard"}
+            to={"/"}
             className=" h-10 w-full hover:bg-indigo-200 mt-5 font-bold text-base py-3 pl-6"
           >
             Dashboard

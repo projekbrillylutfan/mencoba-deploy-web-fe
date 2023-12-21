@@ -8,7 +8,7 @@ export default function SideNav() {
       <div className="logo  h-9 w-9 bg-indigo-200 mt-4"></div>
 
       <Link
-        to="/dashboard"
+        to="/"
         className="grid text-white w-full px-1 py-3 hover:bg-indigo-200 justify-center font-light text-xs content-center mt-4"
       >
         <div className="grid justify-center">
