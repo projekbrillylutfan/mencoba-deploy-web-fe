@@ -12,11 +12,11 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Login />} />
+        <Route path='/' element={<Dashboard />} />
         <Route path='/Home' element={<Home />} />
         <Route path="/create-car" element={<CarCreate />} />
         <Route path="/update-car/:id" element={<UpdateCar />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/car-status" element={<CarStatus />} />
       </Routes>
     </>
